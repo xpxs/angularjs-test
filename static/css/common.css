@@ -1,0 +1,120 @@
+﻿@charset "utf-8";
+*{list-style:none; box-sizing:content-box; padding:0; margin:0;-moz-box-sizing: inherit;-webkit-box-sizing: inherit;}
+ul,ol,li{list-style:none;}
+table{border-collapse:collapse; border-spacing:0;}
+img{ vertical-align:bottom; border:none;}
+i,em,b,address,caption,cite,code,dfn,em,th,var{font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+input{ border:none; outline:none;}
+a{text-decoration:none; color:#000; cursor:pointer; -webkit-transition: all 0.5s;  -moz-transition: all 0.5s;  -o-transition: all 0.5s;  transition: all 0.5s; outline: none;}
+div{ position: relative;}
+/* 页面字体*/
+body,html{font:14px/1.5 "Microsoft YaHei",YaHei,tahoma,arial,"Hiragino Sans GB"; background: #fff;}
+/*块级元素*/
+.in-block{display:inline-block;*display:inline;*zoom:1;}
+.block{display:block;}
+.hide{display:none;}
+
+/*对齐*/
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.fl{float:left; display:inline;}/*display:inline;���ڽ��IE6�¸���˫��߾�����*/
+.fr{float:right; display:inline;}/*ͬ��*/
+.pos-ab{ position:absolute;}
+.pos-rel{ position:relative;}
+.pos-f{ position:fixed;}
+
+/*清除以前的clearfix*/
+.clearfix:after{content:'';display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-block;}
+*html .clearfix{height:1%;}
+.clearfix{display:block;}
+
+/*页面宽度*/
+.wrap{margin:0 auto;  position:relative; width:1440px;}
+
+/*外边距*/
+.mb5{ margin-bottom:5px;}
+.mt5{margin-top:5px;}
+.ml5{ margin-left:5px;}
+.mr5{ margin-right:5px;}
+
+.mb10{ margin-bottom:10px;}
+.mt10{margin-top:10px;}
+.ml10{ margin-left:10px;}
+.mr10{ margin-right:10px;}
+
+.mb15{ margin-bottom:15px;}
+.mt15{margin-top:15px;}
+.ml15{ margin-left:15px;}
+.mr15{ margin-right:15px;}
+
+.mb20{ margin-bottom:20px;}
+.mt20{margin-top:20px;}
+.ml20{ margin-left:20px;}
+.mr20{ margin-right:20px;}
+
+
+.all-m5{ margin:5px;}
+.all-m10{ margin:10px;}
+.all-m15{ margin:15px;}
+.all-m20{ margin:20px;}
+.all-m25{ margin:25px;}
+
+/*内边距*/
+.pb5{ padding-bottom:5px;}
+.pt5{padding-top:5px;}
+.pl5{ padding-left:5px;}
+.pr5{ padding-right:5px;}
+
+.pb10{ padding-bottom:10px;}
+.pt10{padding-top:10px;}
+.pl10{ padding-left:10px;}
+.pr10{ padding-right:10px;}
+
+.pb15{ padding-bottom:15px;}
+.pt15{padding-top:15px;}
+.pl15{ padding-left:15px;}
+.pr15{ padding-right:15px;}
+
+.pb20{ padding-bottom:20px;}
+.pt20{padding-top:20px;}
+.pl20{ padding-left:20px;}
+.pr20{ padding-right:20px;}
+
+.pb25{ padding-bottom:25px;}
+.pt25{padding-top:25px;}
+.pl25{ padding-left:25px;}
+.pr25{ padding-right:25px;}
+
+.all-p5{ padding:5px;}
+.all-p10{ padding:10px;}
+.all-p15{ padding:15px;}
+.all-p20{ padding:20px;}
+.all-p25{ padding:25px;}
+.all-p30{ padding: 30px;}
+
+/*字体大小*/
+.font21{ font-size:21px;}
+.font20{ font-size:20px;}
+.font24{ font-size:24px;}
+.font18{ font-size:18px;}
+.font16{ font-size:16px;}
+.font14{font-size:14px;}
+.font12{font-size:12px;}
+.font36{ font-size: 36px;}
+.fw600{ font-weight:600;}
+
+
+/*css3动画*/
+.animation{-webkit-transition: all 0.5s;  -moz-transition: all 0.5s;  -o-transition: all 0.5s;  transition: all 0.5s;}
+
+/*超过用省略号*/
+.ellipsis{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; display:inline-block;}
+
+/*翻页代码*/
+.flip a{ display:inline-block; height:40px; padding:0 16px; border:1px solid #ddd; line-height:40px; margin:0 5px; font-size:14px;}
+.flip a:hover,.flip .on{ background:#aa1313; color:#fff; text-decoration:none; border:1px solid #aa1313;-webkit-transition: all 0.5s;  -moz-transition: all 0.5s;  -o-transition: all 0.5s;  transition: all 0.5s;}
+.flip2 a{ display:inline-block; height:24px; padding:0 10px; border:1px solid #ddd; line-height:22px; margin:0 5px; font-size:14px;}
+.flip2 a:hover,.flip2 .on{ background:#3f5980; color:#fff; text-decoration:none; border:1px solid #3f5980;-webkit-transition: all 0.5s;  -moz-transition: all 0.5s;  -o-transition: all 0.5s;  transition: all 0.5s;}
